@@ -35,22 +35,21 @@ class Render
 
     private static function formatAsHtml(array $items): string
     {
-        $html = '<hr>[ <a href="./?action=Create">+ ADD new person</a> ]<hr>';
+        $html = '<hr>[ <a href="./?action=Create">Pridėti gitarą į sąrašą</a> ]<hr>';
         $html .= '<table>
                 <th>
-                    <td>ID</td>
-                    <td>Vardas</td>
-                    <td>Pavarde</td>
-                    <td>El-pastas</td>
-                    <td>Veiksmai</td>
+                    <td>Pavadinimas</td>
+                    <td>Aprašymas</td>
+                    <td>Kaina</td>
+                    <td>Grožis</td>
                 </th>
         ';
         foreach ($items as $item) {
-            $img = "<img src='{$item['img']}'>";
             $title = $item['title'];
-            $description = $item['descrition'];;
-            $price = $item['price'];;
-            $row = "<td>{$item['id']}</td><td>$vardas</td><td>$pavarde</td><td>$elpastas</td><td>$veiskmai</td>";
+            $description = $item['description'];
+            $price = $item['price'];
+            $img = "<img src='{$item['img']}'>";
+            $row = "<td>$title</td><td>$description</td><td>$price</td><td>$img</td>";
             $html .= '<tr>'.$row.'</tr>';
         }
         $html .= '</table>';

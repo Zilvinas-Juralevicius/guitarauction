@@ -28,7 +28,7 @@
 <aside>
     <div class="topnav">
             <div class="form-popup" id="myForm">
-            <form action="/index.html" class="form-container">
+            <form action="/index.php" class="form-container">
                 <h1>Prisijunk</h1>
 
                 <label for="email"><b>Email</b></label>
@@ -44,13 +44,13 @@
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
         <a>Registruokis</a>
-        <a href="index.html">Pagrindinis puslapis</a>
+        <a href="index.php">Pagrindinis puslapis</a>
         <a href="puslapiai/naujienos.html">Naujienos</a>
-        <a href="puslapiai/gitaros.html">Gitaros</a>
+        <a href="puslapiai/gitaros.php">Gitaros</a>
         <a href="puslapiai/kontaktai.html">Kontaktai</a>
         <a href="puslapiai/apiemus.html">Apie mus</a>
         <div class="search-container">
-            <form action="index.html">
+            <form action="index.php">
                 <input type="text" placeholder="Ieškokite" name="search">
                 <button type="submit">Ieškoti</button>
             </form>
