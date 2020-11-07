@@ -43,7 +43,7 @@
         </div>
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
-        <a href="#regist">Registruokis</a>
+        <a href="#contacts">Registruokis</a>
         <a href="index.php">Pagrindinis puslapis</a>
         <a href="puslapiai/naujienos.html">Naujienos</a>
         <a href="puslapiai/gitaros.php">Gitaros</a>
@@ -57,6 +57,12 @@
         </div>
     </div>
 </aside>
+
+</section>
+<section id="contacts">
+    <div id="forma"></div>
+</section>
+
 <footer id="elementas">Visos teises saugomos 2020&copy</footer>
 
 <script src="funkcionalumas/popup.js"></script>
