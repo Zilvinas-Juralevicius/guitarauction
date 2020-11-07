@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Gitaros">
+      <change afterPath="$PROJECT_DIR$/puslapiai/registruokis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/guitarauction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guitarauction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +31,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1ijKvOF1Tclf5fdoSziWddUDSdw" />
   <component name="ProjectViewState">
@@ -83,7 +94,8 @@
       <workItem from="1604478599076" duration="17284000" />
       <workItem from="1604517428873" duration="664000" />
       <workItem from="1604568382405" duration="5184000" />
-      <workItem from="1604574365653" duration="15470000" />
+      <workItem from="1604574365653" duration="15659000" />
+      <workItem from="1604747530915" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -106,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604603509607</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Gitaros">
+      <created>1604604784105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604604784105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Gitaros">
+      <created>1604604821705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604604821705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +148,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gitaros" />
@@ -176,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599259159" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604603511893">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604604842114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604603511893" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604842114" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
