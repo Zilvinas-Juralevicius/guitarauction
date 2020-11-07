@@ -1,13 +1,13 @@
 $(function(){
 
     let personsJson;
-    $.get('/?format=json', function (response) {
+    $.get('/php/?format=json', function (response) {
         personsJson = response;
         let personsArray = JSON.parse(personsJson);
 
         let html = '';
-        for (let i = 0; i < guitarArray.length; i++){
-            let persons = guitarArray[i];
+        for (let i = 0; i < personsArray.length; i++){
+            let persons = personsArray[i];
             html += 'Vardas: ' + persons.first_name + '<br>';
             html += 'Pavarde: ' + persons.last_name + '<br>';
             html += 'El.pastas: ' + persons.email + '<br>';

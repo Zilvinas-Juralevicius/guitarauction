@@ -43,7 +43,7 @@
         </div>
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
-        <a href="puslapiai/registruokis.html">Registruokis</a>
+        <a href="puslapiai/registruokis.php">Registruokis</a>
         <a href="index.php">Pagrindinis puslapis</a>
         <a href="puslapiai/naujienos.html">Naujienos</a>
         <a href="puslapiai/gitaros.php">Gitaros</a>
@@ -58,16 +58,15 @@
     </div>
 </aside>
 
-</section>
-<section id="contacts">
-    <div id="forma"></div>
-</section>
 
 <footer id="elementas">Visos teises saugomos 2020&copy</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="funkcionalumas/popup.js"></script>
 <script src="js/formSubmit.js"></script>
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/navigacija.js"></script>
+<script src="js/conect.js"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ class Edit
 
     public function viewEditForm(int $id): void
     {
-        $stmt = $this->conn->prepare('SELECT * FROM person WHERE id = :id');
+        $stmt = $this->conn->prepare('SELECT * FROM persons WHERE id = :id');
         $stmt->bindParam(':id', $id);
         $stmt->execute();
 

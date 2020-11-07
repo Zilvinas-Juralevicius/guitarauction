@@ -5,7 +5,7 @@ use KCS\Render;
 use KCS\Update;
 use KCS\Edit;
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'../vendor/autoload.php';
 
 $conn = new PDO('mysql:host=localhost;dbname=guitarauction', 'zilvinas', 'pankas');
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -25,6 +25,10 @@ switch ($action){
     case 'Store':
         $delObj = new Update($conn);
         $delObj->createPerson($_POST);
+        break;
+    case 'Create':
+        $delObj = new Edit($conn);
+        $delObj->viewCreateForm();
         break;
     default:
         $guitar = (new View($conn))->visi();
