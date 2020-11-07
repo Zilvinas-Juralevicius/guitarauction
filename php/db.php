@@ -2,6 +2,8 @@
 
 use KCS\View;
 use KCS\Render;
+use KCS\Update;
+use KCS\Edit;
 
 require_once __DIR__.'/../vendor/autoload.php';
 

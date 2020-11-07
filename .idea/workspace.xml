@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Gitaros">
+      <change afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/registruokis.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/registruokis.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +74,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction" />
       <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\js" />
@@ -101,7 +108,7 @@
       <workItem from="1604568382405" duration="5184000" />
       <workItem from="1604574365653" duration="15659000" />
       <workItem from="1604747530915" duration="6801000" />
-      <workItem from="1604755325644" duration="1057000" />
+      <workItem from="1604755325644" duration="5794000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -173,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604755403132</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Gitaros">
+      <created>1604756625234</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604756625234</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,11 +215,11 @@
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604294530" />
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1604755814675" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604753003754">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604757091819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604585457346" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604753003754" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604757091819" />
     <state x="450" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604597814731">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -238,19 +252,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="166" key="GridCell.Tab.0.right/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604039943" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604597598824">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1604760764359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604597598824" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604760764359" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1604599259159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599259159" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604755410452">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604756630217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604842114" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604755410452" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604756630217" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
