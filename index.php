@@ -43,7 +43,7 @@
         </div>
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
-        <a href="#contacts">Registruokis</a>
+        <a href="puslapiai/registruokis.html">Registruokis</a>
         <a href="index.php">Pagrindinis puslapis</a>
         <a href="puslapiai/naujienos.html">Naujienos</a>
         <a href="puslapiai/gitaros.php">Gitaros</a>
