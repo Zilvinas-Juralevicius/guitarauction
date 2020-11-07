@@ -1,0 +1,19 @@
+{
+    "name": "zilvi/guitarauction",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zilvinas Juralevicius",
+            "email": "zilvinas.juralevicius@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "2.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KCS\\": "src/"
+        }
+    }
+}
