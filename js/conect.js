@@ -8,10 +8,10 @@ $(function(){
         let html = '';
         for (let i = 0; i < guitarArray.length; i++){
             let guitar = guitarArray[i];
-            html += 'Vardas: ' + guitar.title + '<br>';
-            html += 'Pavarde: ' + guitar.description + '<br>';
-            html += 'Kaina: ' + guitar.price + '<br>';
-            html += 'Grožis: ' + guitar.img + '<hr>';
+            html += 'Vardas: ' + persons.first_name + '<br>';
+            html += 'Pavarde: ' + persons.last_name + '<br>';
+            html += 'Slaptažodis: ' + persons.password + '<br>';
+            html += 'Prisijungimo vardas: ' + persons.login_name + '<hr>';
         }
         $('#guitar').html(html);
     });
