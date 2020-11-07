@@ -20,14 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Gitaros">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change afterPath="$PROJECT_DIR$/js/formSubmit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/registruokis.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/registruokis.html" afterDir="false" />
+    </list>
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
@@ -47,13 +57,23 @@
     </option>
     <expand />
     <select />
+=======
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+<<<<<<< HEAD
         <option value="HTML File" />
         <option value="JavaScript File" />
+=======
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
       </list>
     </option>
   </component>
@@ -62,16 +82,25 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+<<<<<<< HEAD
+=======
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ijKvOF1Tclf5fdoSziWddUDSdw" />
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="DatabaseDriversLRU" value="mysql&#10;redshift" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -94,6 +123,23 @@
         </RuleState>
       </list>
     </option>
+=======
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\js" />
+    </key>
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   </component>
   <component name="RunManager">
     <configuration name="guitarauction.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/guitarauction/guitarauction.html" useBuiltInWebServerPort="true">
@@ -105,10 +151,14 @@
       </list>
     </recent_temporary>
   </component>
+<<<<<<< HEAD
   <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
+=======
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="" />
@@ -122,11 +172,16 @@
       <workItem from="1604478599076" duration="17284000" />
       <workItem from="1604517428873" duration="664000" />
       <workItem from="1604568382405" duration="5184000" />
+<<<<<<< HEAD
       <workItem from="1604574365653" duration="15470000" />
       <workItem from="1604749423258" duration="44000" />
       <workItem from="1604749815005" duration="15000" />
       <workItem from="1604750397426" duration="2670000" />
       <workItem from="1604753179128" duration="219000" />
+=======
+      <workItem from="1604574365653" duration="15659000" />
+      <workItem from="1604747530915" duration="4606000" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -149,24 +204,61 @@
       <option name="project" value="LOCAL" />
       <updated>1604603509607</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+=======
+    <task id="LOCAL-00004" summary="Gitaros">
+      <created>1604604784105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604604784105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Gitaros">
+      <created>1604604821705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604604821705</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Gitaros">
+      <created>1604751149386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604751149386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+=======
+            <State />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
           </value>
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gitaros" />
@@ -221,10 +313,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599259159" />
+<<<<<<< HEAD
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604603511893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604603511893" />
+=======
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604751151023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604842114" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604751151023" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

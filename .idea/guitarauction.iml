@@ -2,8 +2,14 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="KCS\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+=======
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
+>>>>>>> 86d17401176ac50d61d49677ccf7dd37c6f9d129
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
