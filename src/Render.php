@@ -35,8 +35,8 @@ class Render
 
     private static function formatAsHtml(array $items): string
     {
-        $html = '<hr>[ <a href="./?action=Update">Pridėti gitarą į sąrašą</a> ]<hr>';
-        $html .= '<table>
+
+        $html = '<table>
                 <th>
                     <td>Pavadinimas</td>
                     <td>Aprasymas</td>

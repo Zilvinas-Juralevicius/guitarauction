@@ -26,8 +26,6 @@ public function createPerson(array $data): void
     $stmt->bindParam(':Prisijungimo vardas', $data['login_name']);
     $stmt->execute();
 
-    $lastInsertId = $this->conn->lastInsertId();
 
-    header('location: ./?action=View&id=' . $lastInsertId);
     }
 }

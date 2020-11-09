@@ -14,6 +14,20 @@ $action = $_GET['action'] ?? null;
 $format = $_GET['format'] ?? 'html';
 
 switch ($action){
+    case 'Store':
+        $delObj = new Update($conn);
+        $delObj->createPerson($_POST);
+        break;
+    case 'Create':
+        $delObj = new Edit($conn);
+        $delObj->viewCreateForm();
+        break;
+    default:
+        $guitar = (new View($conn))->visi();
+        Render::spausdinti($guitar, $format);
+}
+
+switch ($action){
     case 'View':
         $delObj = new View($conn);
         $delObj->viewGuitars($_GET['id']);
