@@ -35,13 +35,13 @@ class Render
 
     private static function formatAsHtml(array $items): string
     {
-        $html = '<hr>[ <a href="./?action=Create">Pridėti gitarą į sąrašą</a> ]<hr>';
+        $html = '<hr>[ <a href="./?action=Update">Pridėti gitarą į sąrašą</a> ]<hr>';
         $html .= '<table>
                 <th>
                     <td>Pavadinimas</td>
-                    <td>Aprašymas</td>
+                    <td>Aprasymas</td>
                     <td>Kaina</td>
-                    <td>Grožis</td>
+                    <td>Grozis</td>
                 </th>
         ';
         foreach ($items as $item) {

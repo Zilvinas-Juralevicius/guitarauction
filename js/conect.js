@@ -19,3 +19,24 @@ $(function(){
 
 
 });
+
+$(function(){
+
+    let guitarsJson;
+    $.get('/php/?format=json', function (response) {
+        guitarsJson = response;
+        let guitarsArray = JSON.parse(guitarsJson);
+
+        let html = '';
+        for (let i = 0; i < guitarsArray.length; i++){
+            let guitars = guitarsArray[i];
+            html += 'Pavadinimas: ' + guitars.title + '<br>';
+            html += 'Aprasymas: ' + guitars.description + '<br>';
+            html += 'Kaina: ' + guitars.price + '<br>';
+            html += 'Grozis: ' + guitars.img + '<hr>';
+        }
+        $('#guitars').html(html);
+    });
+
+
+});

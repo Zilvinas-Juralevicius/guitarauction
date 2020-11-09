@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Gitaros">
+      <change beforePath="$PROJECT_DIR$/.idea/guitarauction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guitarauction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/naujienos.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/naujienos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Render.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Render.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -105,7 +110,8 @@
       <workItem from="1604574365653" duration="15659000" />
       <workItem from="1604747530915" duration="6801000" />
       <workItem from="1604755325644" duration="10376000" />
-      <workItem from="1604842842097" duration="2825000" />
+      <workItem from="1604842842097" duration="3179000" />
+      <workItem from="1604917832243" duration="3821000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -198,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604765709915</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Gitaros">
+      <created>1604845890601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604845890601</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +239,10 @@
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604294530" />
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1604755814675" />
+    <state x="59" y="205" key="#SQL_Dialects" timestamp="1604918614366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="59" y="205" key="#SQL_Dialects/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604918614366" />
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604843772946">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,15 +289,15 @@
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604597598824" />
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1604764958745" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1604599259159">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1604921581758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599259159" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604765712946">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604845892346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604842114" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604765712946" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604845892346" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

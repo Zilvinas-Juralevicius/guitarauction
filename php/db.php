@@ -16,7 +16,7 @@ $format = $_GET['format'] ?? 'html';
 switch ($action){
     case 'View':
         $delObj = new View($conn);
-        $delObj->viewPerson($_GET['id']);
+        $delObj->viewGuitars($_GET['id']);
         break;
     case 'Update':
         $delObj = new Update($conn);
