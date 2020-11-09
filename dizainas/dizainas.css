@@ -5,6 +5,10 @@ h1.first {
     font: 80px 'BlackJackRegular';
 }
 
+body.page1  {
+    background-color: lightblue;
+}
+
 
 /* The popup form - hidden by default */
 .form-popup {

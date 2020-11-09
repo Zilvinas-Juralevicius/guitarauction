@@ -10,7 +10,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gitaros ir jų aprašymas</title>
 </head>
-<body>
+<body class="page1">
 <h1 class="first">Gitaros</h1>
 <main>
     <div scr="/php/?action=View"></div>

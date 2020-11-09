@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Render.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Render.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,8 @@
       <workItem from="1604747530915" duration="6801000" />
       <workItem from="1604755325644" duration="10376000" />
       <workItem from="1604842842097" duration="3179000" />
-      <workItem from="1604917832243" duration="6831000" />
+      <workItem from="1604917832243" duration="7248000" />
+      <workItem from="1604925885609" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604921681219</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Taisymai">
+      <created>1604924867358</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604924867358</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,10 +305,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604921689592">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604924871861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921689592" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604924871861" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604845892346" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />

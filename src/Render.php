@@ -12,26 +12,12 @@ class Render
             case 'json':
                 echo json_encode($items);
                 break;
-            case 'csv':
-                self::formatAsCsv($items);
-                break;
             case 'html':
             default:
                 echo self::formatAsHtml($items);
         }
     }
 
-    private static function formatAsCsv($array, $filename = "export.csv", $delimiter=";"): void
-    {
-        $f = fopen('php://memory', 'w');
-        foreach ($array as $line) {
-            fputcsv($f, $line, $delimiter);
-        }
-        fseek($f, 0);
-        header('Content-Type: application/csv');
-        header('Content-Disposition: attachment; filename="'.$filename.'";');
-        fpassthru($f);
-    }
 
     private static function formatAsHtml(array $items): string
     {
