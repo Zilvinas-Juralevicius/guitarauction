@@ -5,12 +5,12 @@ use KCS\Render;
 use KCS\Update;
 use KCS\Edit;
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $log = new Monolog\Logger('Baigiamasis_darbas');
 $log->pushHandler(
     new Monolog\Handler\StreamHandler(
-        __DIR__.'/../logs/erro.log',
+        __DIR__ . '/../logs/erro.log',
         Monolog\Logger::INFO));
 
 $log->info('Aplikacija pradejo darba');
@@ -24,10 +24,10 @@ try {
     $format = $_GET['format'] ?? 'html';
 
     switch ($action) {
-        case 'View':
-            $delObj = new View($conn);
-            $delObj->viewGuitars($_GET['id']);
-            break;
+//        case 'View':
+//            $delObj = new View($conn);
+//            $delObj->viewGuitars($_GET['id']);
+//            break;
         case 'Update':
             $delObj = new Update($conn);
             $delObj->updatePerson($_POST);
@@ -45,7 +45,7 @@ try {
             Render::spausdinti($guitar, $format);
 
     }
-}catch (\Exception $exception) {
-        echo "\n\nOii... nutiko klaida. Prasom bandyti dar karta.";
-        $log->warning($exception->getMessage());
-    }
+} catch (\Exception $exception) {
+    echo "\n\nKlaida. Prasom bandyti dar karta.";
+    $log->warning($exception->getMessage());
+}

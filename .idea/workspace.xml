@@ -19,12 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai">
+    <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai, veikia DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizainas/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604926626386</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Taisymai, veikia DB">
+      <created>1604945959925</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604945959925</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gitaros" />
     <MESSAGE value="Taisymai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taisymai" />
+    <MESSAGE value="Taisymai, veikia DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Taisymai, veikia DB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1604755814675">
@@ -313,10 +325,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604926641370">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604945962269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604926641370" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604945962269" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604845892346" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />

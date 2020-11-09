@@ -1,5 +1,5 @@
 <?php
-    require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 ?>
 <!DOCTYPE html>
 <html lang="lt">
@@ -19,47 +19,47 @@
     background-repeat: no-repeat;"
 >
 <header>
-<div></div>
+    <div></div>
     <h1 class="first">Gitarų aukcionas</h1>
 </header>
 
 <aside>
     <nav>
-    <div class="topnav">
+        <div class="topnav">
             <div class="form-popup" id="myForm">
-            <form action="/index.php" class="form-container">
-                <h1>Prisijunk</h1>
+                <form action="/index.php" class="form-container">
+                    <h1>Prisijunk</h1>
 
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" required>
+                    <label for="login_name"><b>Prisijungimo vardas</b></label>
+                    <input type="text" placeholder="Jūsų prisijungimo varas?" name="login_name" required>
 
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="password"><b>Slaptažodis</b></label>
+                    <input type="password" placeholder="Jūsų slaptažodis?" name="password" required>
 
-                <button type="submit" class="btn">Login</button>
-                <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
-            </form>
-        </div>
+                    <button type="submit" class="btn">Login</button>
+                    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+            </div>
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
-        <a href="#reg">Registruokis</a>
-        <a href="index.php">Pagrindinis puslapis</a>
-        <a href="puslapiai/naujienos.html">Naujienos</a>
-        <a href="puslapiai/gitaros.php">Gitaros</a>
-        <a href="puslapiai/kontaktai.html">Kontaktai</a>
-        <a href="puslapiai/apiemus.html">Apie mus</a>
-        <div class="search-container">
-            <form action="/.">
-                <input type="text" placeholder="Ieškokite" name="search">
-                <button type="submit">Ieškoti</button>
-            </form>
+            <a href="#reg">Registruokis</a>
+            <a href="index.php">Pagrindinis puslapis</a>
+            <a href="puslapiai/naujienos.html">Naujienos</a>
+            <a href="puslapiai/gitaros.php">Gitaros</a>
+            <a href="puslapiai/kontaktai.html">Kontaktai</a>
+            <a href="puslapiai/apiemus.html">Apie mus</a>
+            <div class="search-container">
+                <form action="/.">
+                    <input type="text" placeholder="Ieškokite" name="search">
+                    <button type="submit">Ieškoti</button>
+                </form>
+            </div>
         </div>
-    </div>
     </nav>
 </aside>
 <main>
-    <section id="reg">
-        <h1>Registracijos forma</h1>
+    <section>
+        <div id="reg"></div>
     </section>
 </main>
 

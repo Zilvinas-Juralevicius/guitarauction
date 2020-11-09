@@ -20,6 +20,7 @@ header {
 aside {
     grid-area: a;
 }
+
 .topnav {
     overflow: hidden;
     opacity: 1.0;
@@ -99,7 +100,6 @@ footer {
 }
 
 
-
 /* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
 /*@media only screen and (max-width: 600px) {
     body{
@@ -131,9 +131,9 @@ footer {
     }
 
     /* Dideli įrenginiai (laptopai, staliniai PC, 992px ir aukščiau) */
-    @media only screen and (min-width: 992px) {
-    }
+@media only screen and (min-width: 992px) {
+}
 
-    /* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
-    @media only screen and (min-width: 1200px) {
-    }
+/* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
+@media only screen and (min-width: 1200px) {
+}
