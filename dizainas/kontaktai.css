@@ -1,0 +1,18 @@
+.background-img-contacts {background-image: url('../img/guitar-811343_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.info-contacts {
+    color: darkgoldenrod;
+
+    text-align: left;
+}
+.contacts-head {
+    color: darkgoldenrod;
+}
+.tel-number {
+    style: none;
+    color: darkgoldenrod;
+}
