@@ -11,9 +11,10 @@ require_once __DIR__ . '/../vendor/autoload.php';
     <title>Gitaros ir jų aprašymas</title>
 </head>
 <body class="page1">
+<header>
 <h1 class="first">Gitaros</h1>
-<main>
-    <div scr="/php/?action=View"></div>
+</header>
+<main id="guitar">
 </main>
 
 

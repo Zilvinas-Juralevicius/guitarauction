@@ -1,5 +1,5 @@
 $(function(){
-    $('header nav > a').click(function(e){
+    $('aside nav > a').click(function(e){
         pakeistiTaba($(this).attr('href'));
         priskirtiKlase('active', this);
         e.preventDefault()
@@ -11,9 +11,9 @@ $(function(){
     }
 
     function priskirtiKlase(klasesvardas, el){
-        $('header nav > a').removeClass(klasesvardas);
+        $('main section > a').removeClass(klasesvardas);
         $(el).addClass(klasesvardas);
     }
 
-    pakeistiTaba('#contacts');
+    pakeistiTaba('');
 });

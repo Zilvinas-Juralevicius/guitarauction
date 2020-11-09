@@ -7,44 +7,45 @@ use KCS\Edit;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-$conn = new PDO('mysql:host=localhost;dbname=guitarauction', 'zilvinas', 'pankas');
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$log = new Monolog\Logger('Studentas');
+$log->pushHandler(
+    new Monolog\Handler\StreamHandler(
+        __DIR__.'/../logs/studentasApp.log',
+        Monolog\Logger::INFO));
 
-$action = $_GET['action'] ?? null;
-$format = $_GET['format'] ?? 'html';
+$log->info('Aplikacija pradejo darba');
 
-switch ($action){
-    case 'Store':
-        $delObj = new Update($conn);
-        $delObj->createPerson($_POST);
-        break;
-    case 'Create':
-        $delObj = new Edit($conn);
-        $delObj->viewCreateForm();
-        break;
-    default:
-        $guitar = (new View($conn))->visi();
-        Render::spausdinti($guitar, $format);
-}
+try {
 
-switch ($action){
-    case 'View':
-        $delObj = new View($conn);
-        $delObj->viewGuitars($_GET['id']);
-        break;
-    case 'Update':
-        $delObj = new Update($conn);
-        $delObj->updatePerson($_POST);
-        break;
-    case 'Store':
-        $delObj = new Update($conn);
-        $delObj->createPerson($_POST);
-        break;
-    case 'Create':
-        $delObj = new Edit($conn);
-        $delObj->viewCreateForm();
-        break;
-    default:
-        $guitar = (new View($conn))->visi();
-        Render::spausdinti($guitar, $format);
-}
+    $conn = new PDO('mysql:host=localhost;dbname=guitarauction', 'zilvinas', 'pankas');
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    $action = $_GET['action'] ?? null;
+    $format = $_GET['format'] ?? 'html';
+
+    switch ($action) {
+        case 'View':
+            $delObj = new View($conn);
+            $delObj->viewGuitars($_GET['id']);
+            break;
+        case 'Update':
+            $delObj = new Update($conn);
+            $delObj->updatePerson($_POST);
+            break;
+        case 'Store':
+            $delObj = new Update($conn);
+            $delObj->createPerson($_POST);
+            break;
+        case 'Create':
+            $delObj = new Edit($conn);
+            $delObj->viewCreateForm();
+            break;
+        default:
+            $guitar = (new View($conn))->viewGuitars();
+            Render::spausdinti($guitar, $format);
+
+    }
+}catch (\Exception $exception) {
+        echo "\n\nOii... nutiko klaida. Prasom bandyti dar karta.";
+        $log->warning($exception->getMessage());
+    }

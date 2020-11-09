@@ -13,7 +13,7 @@ class View
         $this->conn = $conn;
     }
 
-    public function visi(): array
+    public function viewGuitars(): array
     {
         $stmt = $this->conn->prepare('SELECT id, title, description, price, img FROM guitars');
         $stmt->execute();

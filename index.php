@@ -22,10 +22,9 @@
 <div></div>
     <h1 class="first">Gitarų aukcionas</h1>
 </header>
-<main>Turinys</main>
-
 
 <aside>
+    <nav>
     <div class="topnav">
             <div class="form-popup" id="myForm">
             <form action="/index.php" class="form-container">
@@ -43,20 +42,26 @@
         </div>
             <a class="open-button" onclick="openForm()">Prisijunk</a>
 
-        <a href="./php/?action=Create">Registruokis</a>
+        <a href="#reg">Registruokis</a>
         <a href="index.php">Pagrindinis puslapis</a>
         <a href="puslapiai/naujienos.html">Naujienos</a>
         <a href="puslapiai/gitaros.php">Gitaros</a>
         <a href="puslapiai/kontaktai.html">Kontaktai</a>
         <a href="puslapiai/apiemus.html">Apie mus</a>
         <div class="search-container">
-            <form action="index.php">
+            <form action="/.">
                 <input type="text" placeholder="Ieškokite" name="search">
                 <button type="submit">Ieškoti</button>
             </form>
         </div>
     </div>
+    </nav>
 </aside>
+<main>
+    <section id="reg">
+        <h1>Registracijos forma</h1>
+    </section>
+</main>
 
 
 <footer id="elementas">Visos teises saugomos 2020&copy</footer>
@@ -66,7 +71,6 @@
 <script src="funkcionalumas/popup.js"></script>
 <script src="js/formSubmit.js"></script>
 <script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/navigacija.js"></script>
 <script src="js/conect.js"></script>
 </body>
 </html>
