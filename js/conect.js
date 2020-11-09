@@ -1,7 +1,7 @@
 $(function(){
 
     $('[href="#reg"]').click(function(){
-        $('#reg').load('./php/db.php/?action=Create');
+        $('#reg').load('/php/db.php/?action=Create');
     });
 });
 

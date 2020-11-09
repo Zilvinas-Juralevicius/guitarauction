@@ -36,7 +36,7 @@ class Edit
     public function viewCreateForm(): void
     {
         echo "
-            <form action='./?action=Store' method='post'>
+            <form action='/php/db.php?action=Store' method='post'>
                 <input type='hidden' name='id' value='' />
                 Vardas: <input type='text' name='first_name' value='' /><br>
                 Pavarde: <input type='text' name='last_name' value='' /><br>

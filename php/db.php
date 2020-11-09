@@ -7,10 +7,10 @@ use KCS\Edit;
 
 require_once __DIR__.'/../vendor/autoload.php';
 
-$log = new Monolog\Logger('Studentas');
+$log = new Monolog\Logger('Baigiamasis_darbas');
 $log->pushHandler(
     new Monolog\Handler\StreamHandler(
-        __DIR__.'/../logs/studentasApp.log',
+        __DIR__.'/../logs/erro.log',
         Monolog\Logger::INFO));
 
 $log->info('Aplikacija pradejo darba');

@@ -21,13 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/navigacija.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/navigacija.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
