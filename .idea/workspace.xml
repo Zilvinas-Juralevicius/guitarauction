@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai">
+      <change afterPath="$PROJECT_DIR$/dizainas/apiemus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dizainas/kontaktai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/guitarauction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guitarauction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Render.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Render.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/apiemus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/kontaktai.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guitarauctionsaugoti" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -109,6 +112,7 @@
       <workItem from="1604842842097" duration="3179000" />
       <workItem from="1604917832243" duration="7248000" />
       <workItem from="1604925885609" duration="717000" />
+      <workItem from="1604942192160" duration="2085000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -272,10 +276,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604497939653" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1602516415197">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="651" y="170" key="FileChooserDialogImpl" timestamp="1604942963634">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602516415197" />
+    <state x="651" y="170" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604942963634" />
     <state width="905" height="166" key="GridCell.Tab.0.bottom" timestamp="1604845669655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

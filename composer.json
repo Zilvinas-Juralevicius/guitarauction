@@ -1,11 +1,11 @@
 {
-    "name": "zilvi/guitarauction",
+    "name": "sibronas/klasesdarbas",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "Zilvinas Juralevicius",
-            "email": "zilvinas.juralevicius@gmail.com"
+            "name": "Norbertas Jankauskas",
+            "email": "norb.jankauskas@gmail.com"
         }
     ],
     "require": {
