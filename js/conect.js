@@ -6,6 +6,7 @@ $(function () {
         $('#guitar').load('/php/db.php');
 });
 
+
     // let guitarsJson;
     // $.get('/php/db.php?view=json', function (response) {
     //     guitarsJson = response;

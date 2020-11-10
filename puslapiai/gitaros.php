@@ -16,8 +16,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 <header>
     <h1 class="first">Gitaros</h1>
 </header>
+
 <main>
+   <button class="button"><a href="/index.php">Į pagrindinį puslapį</a></button>
     <div id="guitar"></div>
+    <button class="button"><a href="/index.php">Į pagrindinį puslapį</a></button>
 </main>
 
 

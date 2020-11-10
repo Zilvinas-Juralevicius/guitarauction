@@ -22,13 +22,12 @@
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai, veikia DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizainas/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funkcionalumas/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/funkcionalumas/popup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/apiemus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/kontaktai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/naujienos.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/naujienos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -114,6 +113,7 @@
       <workItem from="1604842842097" duration="3179000" />
       <workItem from="1604917832243" duration="7248000" />
       <workItem from="1604925885609" duration="11470000" />
+      <workItem from="1605008204413" duration="3500000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604945959925</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Taisymai, veikia DB">
+      <created>1604950854499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604950854499</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="192" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599546635" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605010921908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605010921908" />
     <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604497939653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -325,10 +336,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604945962269">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604950855760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604945962269" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604950855760" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604845892346" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
@@ -342,6 +353,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="160" y="69" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728@0.0.1366.728" timestamp="1604843941271" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605008295202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1605008295202" />
     <state x="400" y="135" key="refactoring.ChangeSignatureDialog" timestamp="1604924207588">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
