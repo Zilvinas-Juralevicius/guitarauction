@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Sudejau mygtukus atgal i pagrindini puslapi">
+      <change afterPath="$PROJECT_DIR$/puslapiai/naujienos2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funkcionalumas/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/funkcionalumas/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dizainas/elementai.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/elementai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mostexpensive.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/mostexpensive.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/apiemus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/kontaktai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Render.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Render.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/apiemus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/kontaktai.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puslapiai/naujienos.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/naujienos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +75,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction" />
       <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zilvi\OneDrive\Desktop\guitarauction\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,7 +113,8 @@
       <workItem from="1604842842097" duration="3179000" />
       <workItem from="1604917832243" duration="7248000" />
       <workItem from="1604925885609" duration="11470000" />
-      <workItem from="1605008204413" duration="9246000" />
+      <workItem from="1605008204413" duration="9310000" />
+      <workItem from="1605019559864" duration="3900000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605011986193</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Sudejau mygtukus atgal i pagrindini puslapi">
+      <created>1605017876347</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605017876347</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,9 +311,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="192" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604599546635" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605010921908">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605024269545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1605024269545" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605010921908" />
     <state x="441" y="234" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604497939653">
       <screen x="0" y="0" width="1366" height="728" />
@@ -345,11 +353,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605011989104">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605017877381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604950855760" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605011989104" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605017877381" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -358,9 +366,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="137" width="511" height="475" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604603101621" />
-    <state x="160" y="69" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1604843941271">
+    <state x="160" y="69" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1605024384693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="160" y="69" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1605024384693" />
     <state x="160" y="69" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1366.728@0.0.1366.728" timestamp="1604843941271" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605008295202">
       <screen x="0" y="0" width="1366" height="728" />
@@ -370,10 +379,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="400" y="135" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604924207588" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1604755920281">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605023284110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604604159104" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1605023284110" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1604755920281" />
     <state x="475" y="238" key="scopes" timestamp="1604603049246">
       <screen x="0" y="0" width="1366" height="728" />

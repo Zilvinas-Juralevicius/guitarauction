@@ -1,3 +1,6 @@
-
-
-
+body {
+    background-image: url('/img/guitar.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+}

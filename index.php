@@ -13,11 +13,7 @@ require_once __DIR__ . '/vendor/autoload.php';
     <link rel="stylesheet" href="dizainas/elementai.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-image: url('img/guitar.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;"
->
+<body>
 <header>
     <div></div>
     <h1 class="first">Gitarų aukcionas</h1>
@@ -44,10 +40,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 
             <a href="#reg">Registruokis</a>
             <a href="index.php">Pagrindinis puslapis</a>
-            <a href="puslapiai/naujienos.html">Naujienos</a>
+            <a href="puslapiai/naujienos2.php">Naujienos</a>
             <a href="puslapiai/gitaros.php">Gitaros</a>
-            <a href="puslapiai/kontaktai.html">Kontaktai</a>
-            <a href="puslapiai/apiemus.html">Apie mus</a>
+            <a href="puslapiai/kontaktai.php">Kontaktai</a>
+            <a href="puslapiai/apiemus.php">Apie mus</a>
             <div class="search-container">
                 <form action="index.php">
                     <input type="text" placeholder="Ieškokite" name="search">
