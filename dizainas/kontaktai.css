@@ -6,7 +6,6 @@
 
 .info-contacts {
     color: darkgoldenrod;
-
     text-align: left;
 }
 .contacts-head {
@@ -15,4 +14,7 @@
 .tel-number {
     style: none;
     color: darkgoldenrod;
+}
+.map-link-1 {
+    float: left;
 }
