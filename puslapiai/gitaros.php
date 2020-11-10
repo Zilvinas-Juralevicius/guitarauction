@@ -19,12 +19,12 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 <main>
    <button class="button"><a href="/index.php">Į pagrindinį puslapį</a></button>
-    <div id="guitar"></div>
+    <div class="diz" id="guitar"></div>
     <button class="button"><a href="/index.php">Į pagrindinį puslapį</a></button>
 </main>
 
 
-
+<footer id="elementas">Visos teises saugomos 2020&copy</footer>
 <script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/js/conect.js"></script>
 </body>

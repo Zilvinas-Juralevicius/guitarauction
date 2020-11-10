@@ -45,7 +45,7 @@ class Edit
                 Prisijungimo vardas: <input type='text' name='login_name' value='' /><br>
                 <input type='submit' value='Registruotis'>
             </form>
-            [<a href='./'>ATGAL</a>]
+            <button class='button'><a href='./'>Uždaryti registracijos formą</a></button>
         ";
     }
 }

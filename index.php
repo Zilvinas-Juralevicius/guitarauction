@@ -49,7 +49,7 @@ require_once __DIR__ . '/vendor/autoload.php';
             <a href="puslapiai/kontaktai.html">Kontaktai</a>
             <a href="puslapiai/apiemus.html">Apie mus</a>
             <div class="search-container">
-                <form action="/.">
+                <form action="index.php">
                     <input type="text" placeholder="Ieškokite" name="search">
                     <button type="submit">Ieškoti</button>
                 </form>
@@ -62,7 +62,6 @@ require_once __DIR__ . '/vendor/autoload.php';
         <div id="reg"></div>
     </section>
 </main>
-
 
 <footer id="elementas">Visos teises saugomos 2020&copy</footer>
 

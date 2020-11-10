@@ -19,15 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Taisymai, veikia DB">
+    <list default="true" id="750fe437-6e36-4691-be4f-b7f483e264c5" name="Default Changelist" comment="Sudejau mygtukus atgal i pagrindini puslapi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dizainas/dizainas.css" beforeDir="false" afterPath="$PROJECT_DIR$/dizainas/dizainas.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funkcionalumas/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/funkcionalumas/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/conect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/conect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puslapiai/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/apiemus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puslapiai/gitaros.php" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/gitaros.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puslapiai/kontaktai.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/kontaktai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puslapiai/naujienos.html" beforeDir="false" afterPath="$PROJECT_DIR$/puslapiai/naujienos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Render.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Render.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -113,7 +114,7 @@
       <workItem from="1604842842097" duration="3179000" />
       <workItem from="1604917832243" duration="7248000" />
       <workItem from="1604925885609" duration="11470000" />
-      <workItem from="1605008204413" duration="3500000" />
+      <workItem from="1605008204413" duration="9246000" />
     </task>
     <task id="LOCAL-00001" summary="Gitaros">
       <created>1604574399410</created>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604950854499</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Sudejau mygtukus atgal i pagrindini puslapi">
+      <created>1605011986193</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605011986193</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="Gitaros" />
     <MESSAGE value="Taisymai" />
     <MESSAGE value="Taisymai, veikia DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Taisymai, veikia DB" />
+    <MESSAGE value="Sudejau mygtukus atgal i pagrindini puslapi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sudejau mygtukus atgal i pagrindini puslapi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1604755814675">
@@ -336,11 +345,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604921581758" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604950855760">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605011989104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1280.-143.1280.984@0.0.1366.728" timestamp="1604950855760" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604845892346" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605011989104" />
     <state x="479" y="184" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1604603050028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
