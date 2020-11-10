@@ -35,8 +35,8 @@ class Edit
 
     public function viewCreateForm(): void
     {
-        echo "
-            <form action='./?action=Store' method='post'>
+        echo " <h1>Registracijos forma</h1>
+            <form action='/php/db.php?action=Store' method='post'>
                 <input type='hidden' name='id' value='' />
                 Vardas: <input type='text' name='first_name' value='' /><br>
                 Pavarde: <input type='text' name='last_name' value='' /><br>
@@ -45,7 +45,7 @@ class Edit
                 Prisijungimo vardas: <input type='text' name='login_name' value='' /><br>
                 <input type='submit' value='Registruotis'>
             </form>
-            [<a href='./'>ATGAL</a>]
+            <button class='button'><a href='./'>Uždaryti registracijos formą</a></button>
         ";
     }
 }

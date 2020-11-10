@@ -22,7 +22,7 @@ class Render
     private static function formatAsHtml(array $items): string
     {
 
-        $html = '<table>
+        $html = '<table class="diz">
                 <th>
                     <td>Pavadinimas</td>
                     <td>Aprasymas</td>

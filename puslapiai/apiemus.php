@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Apie mus</title>
     <link href="../dizainas/apiemus.css" rel="stylesheet">
+    <link rel="stylesheet" href="/dizainas/dizainas.css">
 </head>
 <body class="background-img-about-us">
 
@@ -26,6 +27,7 @@
     Kokybės užtikrinimas
     Visai mūsų parduodamai produkcijai suteikiama mažiausiai 1 metų garantiją.
 </p>
-
+<button class="button"><a href="/index.php">Į pagrindinį puslapį</a></button>
 </body>
+<footer id="elementas">Visos teises saugomos 2020&copy</footer>
 </html>
